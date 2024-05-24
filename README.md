@@ -37,7 +37,7 @@ Step 7 - Enable PHP on the website
 
 Step 8 — Testing Database Connection
 
-Understanding the basis of DevOps
+**Understanding the basis of DevOps**
 
 What is Software Development Life Cycle?
 The software development lifecycle (SDLC) is the cost-effective and time-efficient process that development teams use to design and build high-quality software. The goal of SDLC is to minimize project risks through forward planning so that software meets customer expectations during production and beyond.
@@ -66,7 +66,7 @@ Test PHP Processing
 Test Database Connection
 
 
-Self Study
+**Self Study**
 TCP & UDP
 Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) both are protocols of the Transport Layer.
 

@@ -13,7 +13,7 @@ Allow traffic on port 443 (HTTPS) with source from anywhere on the internet.
 Allow traffic on port 22 (SSH) with source from any IP address. This is opened by default.
 
 Step 2
-Let's Connect our instance using SSH, then cd into the folder where the private-key was downloaded then ssh into it
+Connect our instance using SSH, then cd into the folder where the private-key was downloaded then ssh into it
 cd desktop
 chmod 400 steghub.pem
 ssh -i "steghub.pem" ubuntu@ec2-34-227-7-216.compute-1.amazonaws.com
@@ -27,3 +27,12 @@ Test with the public IP address if the Apache HTTP server can respond to request
 Step 4 - Install MySQL
 Install a relational database (RDB)
 Log in to mysql console
+
+Step 5 - Install PHP
+Install php Apache is installed to serve the content and MySQL is installed to store and manage data. PHP is the component of the set up that processes code to display dynamic content to the end user.
+
+Step 6 - Create a virtual host for the website using Apache
+
+Step 7 - Enable PHP on the website
+
+Step 8 — Testing Database Connection

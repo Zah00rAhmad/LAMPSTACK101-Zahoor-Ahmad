@@ -17,3 +17,13 @@ Let's Connect our instance using SSH, then cd into the folder where the private-
 cd desktop
 chmod 400 steghub.pem
 ssh -i "steghub.pem" ubuntu@ec2-34-227-7-216.compute-1.amazonaws.com
+
+Step 3 - Install Apache and Update the Firewall
+Run apache2 package installation
+Enable and verify that apache is running on as a service on the OS.
+The server is running and can be accessed locally in the ubuntu shell by running the command below:
+Test with the public IP address if the Apache HTTP server can respond to request from the internet using the url on a browser.
+
+Step 4 - Install MySQL
+Install a relational database (RDB)
+Log in to mysql console
